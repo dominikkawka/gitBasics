@@ -1,0 +1,21 @@
+SOLUTION: 
+100644 blob 745d2488cae57b546b2730c53292067e2f02a33f    productCatalogue.js
+git cat-file -p 745d2488cae57b546b2730c53292067e2f02a33f
+
+
+
+$ git cat-file -p b281276a6403b1162f21fa675d0209386072fca1
+tree 5f4f2a2980bc44db46943be2227768024235daa7
+parent cd17cdc1696339f168a7e66cfe7f5a1ca6b0be0b
+author Dominik Kawka <dominikkawka2002@gmail.com> 1696324350 +0100
+committer Dominik Kawka <dominikkawka2002@gmail.com> 1696324350 +0100
+
+$ git cat-file -p 5f4f2a2980bc44db46943be2227768024235daa7
+100644 blob f426776b0f940f2f3b35fcd10331a3faec4a7e50    .gitignore
+100644 blob 6ed85f7fc92128d05a8470a35a6076be7fa0db62    package.json
+040000 tree ae869a2706255a2cbeb72aa0d8c088f239a4da2f    src
+040000 tree 4d3c43437f304a41ee7909f6c694caa446b90677    test
+
+$ git cat-file -p ae869a2706255a2cbeb72aa0d8c088f239a4da2f
+100644 blob df5da672a6f35cd764c5b7c3a6a6114d8748ad9f    product.js
+100644 blob 745d2488cae57b546b2730c53292067e2f02a33f    productCatalogue.js
